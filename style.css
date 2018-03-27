@@ -1,0 +1,141 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: white;
+    margin: 0 auto;
+}
+
+nav {
+    top: 20px;
+    position: fixed;
+}
+
+.Part1 {
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
+
+.Part1 > input {
+    margin-top: 8%;
+    border-radius: 60%;
+    border-style: solid;
+    border-color: white;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255,255,255, 0.2);
+}
+
+.Part1, h1 {
+    padding-top: 5%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: ;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 170px;
+    text-decoration: none;
+}
+
+#Part1 {
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    background: url("img/PaginaIntro.jpg") no-repeat bottom center scroll;
+    background-color: black;
+    background-size: cover;
+}
+
+#Part2 {
+    width: 100%;
+    height: 80%;
+    background-color: black;
+}
+
+#Part3 {
+    width: 100%;
+    height: 59%;
+    background: url("img/BenedenBanner.jpg") no-repeat bottom center scroll;
+    background-size: 142%;
+}
+
+#Part4 {
+    width: 100%;
+    height: 65%;
+    background-color: black;
+}
+
+.Part2 {
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.Part3 {
+    width: 100%;
+    height: 59%;
+    text-align: center;
+    color: white;
+    background-size: 142%;
+}
+
+.Part4 {
+    width: 100%;
+    height: 65%;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.Part5 {
+    width: 100%;
+    height: 36%;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+.Part6 {
+    background-color: black;
+}
+
+footer {
+    height: 12%;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0;
+    padding-top: 2.5%;
+}
